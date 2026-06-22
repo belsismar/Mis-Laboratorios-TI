@@ -10,6 +10,6 @@
 ---
 
 ## 📂 Índice de Laboratorios
-1. [Laboratorio 1: Topología de Redes con Cisco Packet Tracer](#) *(Próximamente)*
+1. [Laboratorio 1: Topología de Redes con Cisco Packet Tracer](#) (Packet-Tracer.md)
 2. [Laboratorio 2: Servidor de Dominio con Zentyal](#) *(Próximamente)*
 3. [Laboratorio 3: Nube Privada con Nextcloud](#) *(Próximamente)*
