@@ -6,6 +6,8 @@ Este laboratorio práctico simula el diseño y despliegue de la infraestructura 
 
 
 ### 🧠 Diseño Lógico y Memoria de Cálculo (VLSM)
+Para este diseño y evitar el desperdicio de direcciones IP decidí implementar VLSM para segmentar el bloque `192.168.21.0/24` de manera eficiente. <img width="724" height="589" alt="DHCP" src="https://github.com/user-attachments/assets/208f662a-a399-4224-bc50-8670658ca1a8" />
+<img width="724" height="589" alt="DHCP" src="https://github.com/user-attachments/assets/4d35f076-bb97-4fb7-af00-1825662dc401" />
 Antes de realizar el montaje en el software de simulación, realicé el análisis binario y el cálculo manual de las necesidades de hosts para asegurar el máximo aprovechamiento del direccionamiento IP asignado:
 
 <img width="1200" height="1600" alt="IMG-20260622-WA0015" src="https://github.com/user-attachments/assets/bd91289f-4b08-460b-911c-63ee203060b2" />
@@ -44,3 +46,33 @@ Para cumplir con los estándares de auditoría de la empresa, se configuraron lo
 ---
 
 ## 📸 Evidencias de Funcionamiento e Interconexión
+
+### Diagrama de la Topología General
+
+<img width="873" height="975" alt="Red física" src="https://github.com/user-attachments/assets/6068f3fc-1e62-4ff6-ba17-9eddf03bd2cd" />
+
+### Pruebas de Conectividad Fin a Fin (End-to-End)
+
+* **Ping exitoso desde el área de Comercial hacia Administración:**
+
+<img width="681" height="583" alt="Desde Comercial a Admon" src="https://github.com/user-attachments/assets/76d05d6e-f308-4d24-8a9b-2f9d1d94d39f" />
+
+### Pruebas de Endurecimiento (Hardening) y Acceso Remoto
+* **Verificación de SSH desde un PC al Router:**
+
+<img width="550" height="575" alt="ssh" src="https://github.com/user-attachments/assets/c1e8b99a-832f-4e8d-81a5-94c1b4072b08" />
+
+* **Puertos inactivos asegurados:**
+
+<img width="688" height="435" alt="Interfaces SW_Comercial" src="https://github.com/user-attachments/assets/c14bea54-79c5-400d-a815-4e6aa8a42df8" />
+
+### 📶 Verificación de la Red Inalámbrica (WIFI_Comercial)
+Para el área comercial se desplegó un acceso inalámbrico aislado seguro. Las siguientes evidencias confirman el correcto funcionamiento del direccionamiento dinámico y la salida a la red corporativa:
+
+* **Asignación IP por DHCP en cliente inalámbrico:**
+
+<img width="724" height="589" alt="DHCP" src="https://github.com/user-attachments/assets/c64ee6a2-355e-4419-a4fb-a4af0fe8706f" />
+
+* **Prueba de conectividad (Ping) desde la red WiFi hacia el área de Administración:**
+
+<img width="482" height="373" alt="nat" src="https://github.com/user-attachments/assets/af314da9-c65b-48ed-b5e7-e7999b3dcf3c" />
