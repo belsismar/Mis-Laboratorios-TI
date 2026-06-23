@@ -1,6 +1,4 @@
 # Mi Portafolio de Laboratorios IT 🚀
-?style=for-the-badge
-logo=Cisco
 
 ### *Infraestructura, Redes y Administración de Servidores*
 
