@@ -12,7 +12,7 @@ Para este diseño y evitar el desperdicio de direcciones IP decidí implementar 
 ### 🗺️ Diagrama de Arquitectura y Topología Lógica
 Con el direccionamiento calculado, diseñé la topología lógica definiendo las interfaces exactas (`GigabitEthernet`) y los puntos de demarcación para la red cableada e inalámbrica:
 
-<img width="1333" height="1600" alt="IMG-20260622-WA0014" src="https://github.com/user-attachments/assets/c33026b4-5c76-4440-aa7b-12b4a5d5c4b6" />
+![Topología Lógica](img/topologia-logica.jpg)
 
 ## 🛠️ Requerimientos del Diseño
 
@@ -46,30 +46,30 @@ Para cumplir con los estándares de auditoría de la empresa, se configuraron lo
 
 ### Diagrama de la Topología General
 
-<img width="873" height="975" alt="Red física" src="https://github.com/user-attachments/assets/6068f3fc-1e62-4ff6-ba17-9eddf03bd2cd" />
+![Topologia Física](img/topologia-fisica.jpg)
 
 ### Pruebas de Conectividad Fin a Fin (End-to-End)
 
 * **Ping exitoso desde el área de Comercial hacia Administración:**
 
-<img width="681" height="583" alt="Desde Comercial a Admon" src="https://github.com/user-attachments/assets/76d05d6e-f308-4d24-8a9b-2f9d1d94d39f" />
+![Conectividad Extremo a Extremo](img/end-to-end.jpg)
 
 ### Pruebas de Endurecimiento (Hardening) y Acceso Remoto
 * **Verificación de SSH desde un PC al Router:**
 
-<img width="550" height="575" alt="ssh" src="https://github.com/user-attachments/assets/c1e8b99a-832f-4e8d-81a5-94c1b4072b08" />
+![Hardering](img/ssh-verificacion.jpg)
 
 * **Puertos inactivos asegurados:**
 
-<img width="688" height="435" alt="Interfaces SW_Comercial" src="https://github.com/user-attachments/assets/c14bea54-79c5-400d-a815-4e6aa8a42df8" />
+![Puertos inactivos](img/puertos-inactivos.jpg)
 
 ### 📶 Verificación de la Red Inalámbrica (WIFI_Comercial)
 Para el área comercial se desplegó un acceso inalámbrico aislado seguro. Las siguientes evidencias confirman el correcto funcionamiento del direccionamiento dinámico y la salida a la red corporativa:
 
 * **Asignación IP por DHCP en cliente inalámbrico:**
 
-<img width="724" height="589" alt="DHCP" src="https://github.com/user-attachments/assets/c64ee6a2-355e-4419-a4fb-a4af0fe8706f" />
+![IP por DHCP](img/dhcp-wifi.jpg)
 
 * **Prueba de conectividad (Ping) desde la red WiFi hacia el área de Administración:**
 
-<img width="482" height="373" alt="nat" src="https://github.com/user-attachments/assets/af314da9-c65b-48ed-b5e7-e7999b3dcf3c" />
+![Prueba de Conectividad](img/wifi-a-admon.jpg)
