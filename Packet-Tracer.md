@@ -37,45 +37,49 @@ A continuación se muestran los comandos más relevantes aplicados en los dispos
 
 ### Switches
 
+### Switches
+
+```cisco
 ! Configuración de SSH
 hostname ROUTER_1
 enable secret N@dieDber1aSab3r
 ip domain-name netsec.com
 username netadmin privilege 15 secret Pr@cticaC1sc0
 line vty 0 15
-    transport input ssh
-    login local
+ transport input ssh
+ login local
 crypto key generate rsa general-keys modulus 1024
 ip ssh version 2
+
 ! Mitigación de Vectores de Ataque
 no ip domain-lookup
 interface range fastethernet 0/3-24
-description Intentionally shutdown
-shutdown
+ description Intentionally shutdown
+ shutdown
+```
 
 ### Router
 
-! Cierre de sesión por inactividad 
+```cisco
+! Cierre de sesión por inactividad
 line vty 0 15
  exec-timeout 5 0
-! Bloqueo por intetos fallidos
+
+! Bloqueo por intentos fallidos
 login block-for 60 attempts 3 within 30
 
 ! Seguridad en SSH
 ip ssh time-out 60
 ip ssh authentication-retries 2
 
-!Mensaje de Advertencia 
+! Mensaje de Advertencia
 banner motd #
-
------------------------------------------------------
 ¡ADVERTENCIA! SISTEMA DE ACCESO RESTRINGIDO - ROUTER_1
 Solo personal autorizado. Todo acceso no autorizado sera 
 monitoreado, registrado y reportado a las autoridades.
-
------------------------------------------------------
-
----
+#
+```
+----
 
 ## 🔒 Políticas de Seguridad e Inmunización Aplicadas
 Para cumplir con los estándares de auditoría de la empresa, se configuraron los siguientes parámetros en el CLI de Cisco:
