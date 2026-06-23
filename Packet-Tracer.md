@@ -46,30 +46,30 @@ Para cumplir con los estándares de auditoría de la empresa, se configuraron lo
 
 ### Diagrama de la Topología General
 
-![Topologia Física](img/topologia-fisica.jpg)
+![Topologia Física](img/topologia-fisica.png)
 
 ### Pruebas de Conectividad Fin a Fin (End-to-End)
 
 * **Ping exitoso desde el área de Comercial hacia Administración:**
 
-![Conectividad Extremo a Extremo](img/end-to-end.jpg)
+![Conectividad Extremo a Extremo](img/end-to-end.png)
 
 ### Pruebas de Endurecimiento (Hardening) y Acceso Remoto
 * **Verificación de SSH desde un PC al Router:**
 
-![Hardering](img/ssh-verificacion.jpg)
+![Hardering](img/ssh-verificacion.png)
 
 * **Puertos inactivos asegurados:**
 
-![Puertos inactivos](img/puertos-inactivos.jpg)
+![Puertos inactivos](img/puertos-inactivos.png)
 
 ### 📶 Verificación de la Red Inalámbrica (WIFI_Comercial)
 Para el área comercial se desplegó un acceso inalámbrico aislado seguro. Las siguientes evidencias confirman el correcto funcionamiento del direccionamiento dinámico y la salida a la red corporativa:
 
 * **Asignación IP por DHCP en cliente inalámbrico:**
 
-![IP por DHCP](img/dhcp-wifi.jpg)
+![IP por DHCP](img/dhcp-wifi.png)
 
 * **Prueba de conectividad (Ping) desde la red WiFi hacia el área de Administración:**
 
-![Prueba de Conectividad](img/wifi-a-admon.jpg)
+![Prueba de Conectividad](img/wifi-a-admon.png)
