@@ -1,8 +1,7 @@
 # Implementación de Infraestructura de Red y Seguridad Perimetral para Sucursal XYZ 🌐
 
 ## 📝 Descripción del Proyecto
-Este laboratorio práctico simula el diseño y despliegue de la infraestructura de red local para una nueva sucursal de la empresa XYZ. El objetivo principal es segmentar la red asignada (`192.168.21.0/24`) utilizando **VLSM (Variable Length Subnet Mask)** para optimizar el direccionamiento IP de las áreas de **Administración** y **Comer
----cial**, aplicando estrictas políticas de endurecimiento (*hardening*) y seguridad en los dispositivos de borde y distribución Cisco.
+Este laboratorio práctico simula el diseño y despliegue de la infraestructura de red local para una nueva sucursal de la empresa XYZ. El objetivo principal es segmentar la red asignada (`192.168.21.0/24`) utilizando **VLSM (Variable Length Subnet Mask)** para optimizar el direccionamiento IP de las áreas de **Administración** y **Comercial**, aplicando estrictas políticas de endurecimiento (*hardening*) y seguridad en los dispositivos de borde y distribución Cisco.
 
 
 ### 🧠 Diseño Lógico y Memoria de Cálculo (VLSM)
