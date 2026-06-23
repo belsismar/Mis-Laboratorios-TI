@@ -39,6 +39,8 @@ A continuación se muestran los comandos más relevantes aplicados en los dispos
 
 ### Switches
 
+### Switches
+
 ```cisco
 ! Configuración de SSH
 hostname ROUTER_1
