@@ -7,7 +7,7 @@ Este laboratorio práctico simula el diseño y despliegue de la infraestructura 
 ### 🧠 Diseño Lógico y Memoria de Cálculo (VLSM)
 Para este diseño y evitar el desperdicio de direcciones IP decidí implementar VLSM para segmentar el bloque `192.168.21.0/24` de manera eficiente. Antes de realizar el montaje en el software de simulación, realicé el análisis binario y el cálculo manual de las necesidades de hosts para asegurar el máximo aprovechamiento del direccionamiento IP asignado:
 
-<img width="1200" height="1600" alt="IMG-20260622-WA0015" src="https://github.com/user-attachments/assets/bd91289f-4b08-460b-911c-63ee203060b2" />
+![Cálculo VLSM](img/vlsm-calculo-binario.jpg)
 
 ### 🗺️ Diagrama de Arquitectura y Topología Lógica
 Con el direccionamiento calculado, diseñé la topología lógica definiendo las interfaces exactas (`GigabitEthernet`) y los puntos de demarcación para la red cableada e inalámbrica:
