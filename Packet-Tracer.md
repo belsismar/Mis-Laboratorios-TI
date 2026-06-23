@@ -127,3 +127,7 @@ Para el área comercial se desplegó un acceso inalámbrico aislado seguro. Las 
 * **Prueba de conectividad (Ping) desde la red WiFi hacia el área de Administración:**
 
 ![Prueba de Conectividad](img/wifi-a-admon.png)
+
+## 📚 Conclusiones y aprendizajes
+
+En este laboratorio pude aplicar conceptos clave de diseño de redes como VLSM para optimizar el direccionamiento IP y políticas de hardening para proteger el acceso remoto. Aprendí a configurar SSHv2 con autenticación local, a bloquear intentos de acceso fallidos y a deshabilitar puertos innecesarios. La implementación del banner de advertencia también refuerza el aspecto legal y disuasivo. Como próximo paso, quiero mostrar unos laboratorios de troubleshooting.
