@@ -66,14 +66,14 @@ ip ssh time-out 60
 ip ssh authentication-retries 2
 
 !Mensaje de Advertencia 
-
 banner motd #
-------------------------------------------------------------
+
+-----------------------------------------------------
 ¡ADVERTENCIA! SISTEMA DE ACCESO RESTRINGIDO - ROUTER_1
 Solo personal autorizado. Todo acceso no autorizado sera 
 monitoreado, registrado y reportado a las autoridades.
-------------------------------------------------------------
-#
+
+-----------------------------------------------------
 
 ---
 
