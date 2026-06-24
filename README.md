@@ -14,5 +14,5 @@
 
 ## 📚 Índice de Laboratorios
 *   ✅ [Laboratorio 1: Topología de Redes con](https://github.com/belsismar/Mis-Laboratorios-TI/blob/main/Packet-Tracer.md) ![Cisco](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white) *(Completado)*
-*   ⏳ [Laboratorio 2: Servidor de Dominio con Zentyal](https://github.com) *(Próximamente)*
-*   ⏳ [Laboratorio 3: Nube Privada con Nextcloud](https://github.com) *(Próximamente)*
+*   ⏳ [Laboratorio 2: Servidor de Dominio con Zentyal](en-construccion.md) 🚧 *(Próximamente)*
+*   ⏳ [Laboratorio 3: Nube Privada con Nextcloud](en-construccion.md) 🚧 *(Próximamente)*
