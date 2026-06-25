@@ -1,5 +1,4 @@
 # Mi Portafolio de Laboratorios IT 🚀
-![Mis Laboratorios](https://img.shields.io/badge/Mis_Laboratorios-TI-blue?style=for-the-badge)
 
 ### *Infraestructura, Redes y Administración de Servidores*
 
