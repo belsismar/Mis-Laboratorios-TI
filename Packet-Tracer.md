@@ -98,7 +98,7 @@ Para cumplir con los estándares de auditoría de la empresa, se configuraron lo
 
 ![Topologia Física](img/topologia-fisica.png)
 
-### Pruebas de Conectividad Fin a Fin (End-to-End)
+### Pruebas de Conectividad host a host (End-to-End)
 
 * **Ping exitoso desde el área de Comercial hacia Administración:**
 
