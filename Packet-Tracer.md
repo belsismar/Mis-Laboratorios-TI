@@ -37,13 +37,9 @@ A continuación se muestran los comandos más relevantes aplicados en los dispos
 
 ### Switches
 
-### Switches
-
-### Switches
-
 ```cisco
 ! Configuración de SSH
-hostname ROUTER_1
+hostname SWITCHE_1
 enable secret N@dieDber1aSab3r
 ip domain-name netsec.com
 username netadmin privilege 15 secret Pr@cticaC1sc0
